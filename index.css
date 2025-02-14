@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+
+#hero {
+    height: 120px;
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    background-size: 140%;
+    background-position-y: center;
+    background-position-x: left;
+    color: white;
+    padding-left: 10px;
+    margin-bottom: 0;
+}
+
+#hero h2 {
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+#hero p {
+    margin-top: 0px;
+    padding-top: 0;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#item-list {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#item {
+    display: flex;
+    padding: 10px 0px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+}
+
+#item h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+#item h3 {
+    margin: 0;
+}
+
+#item p {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#item button {
+    background-color: white;
+    color: #aaaaaa;
+    border-radius: 20px;
+    border: 1px solid #aaaaaa;
+    font-size: 16px;
+    height: 40px;
+    width: 40px;
+}
+
+#item button:hover {
+    background-color: #aaaaaa;
+    color: white;
+}
+
+
+#description {
+    width: 75%;
+    margin-left: 20px;
+}
+
+#item-list #divider {
+    height: 1px;
+    margin: 0px;
+    background-color: #D2D2D2;
+}
+
+#order {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+#order-item h3 {
+    margin: 0;
+}
+
+#order-item p {
+    margin: 0;
+}
+
+#order-item {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 10px;
+}
+
+#order-item #title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#order #divider {
+    height: 1px;
+    margin: 0px;
+    margin-top: 20px;
+    background-color: black;
+}
+
+#total {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 10px;
+}
+
+#total h3 {
+    margin: 0;
+}
+
+#total p {
+    margin: 0;
+}
+
+#order button {
+    background-color: #16DB99;
+    border: 0px;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    margin: 20px 0px;
+    color: white;
+    font-weight: bold;
+}
+
+#order span {
+    margin-left: 5px;
+}
+
+#order span:hover {
+    color: red;
+}
+
+.no-cursor-change {
+    cursor: default;
+    user-select: none;
+}
+
+#modal {
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed; 
+    top: 0;
+    left: 0;  
+    right: 0; 
+    bottom: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#modal-content {
+    background-color: white;
+    width: 330px;
+    height: 320px;
+    border-radius: 2px;
+    box-shadow: 0px 5px 100px gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    position: relative;
+}
+
+#modal-content form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#modal-content input {
+    padding: 15px;
+    margin: 5px 0;
+}
+
+#modal-content button {
+    background-color: #16DB99;
+    border: 0px;
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    margin: 0;
+    justify-content: end;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#close-modal:hover {
+    color: red;
+}
+
+#confirm {
+    display: flex;
+    background-color: #ECFDF5;
+    color: #065F46;
+    height: 80px;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
